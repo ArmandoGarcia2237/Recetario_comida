@@ -16,7 +16,7 @@ const Categories = () => {
 
   return (
     <>
-      <div className='display-3 center bg-white text-dark p-6'>Categorias de comida</div>
+      <div className='display-3 center bg-white text-dark p-6'>Estas en Categorias de comida</div>
       <div className='shadow row'>
         {character.map((cmd) => (
           <ImageCard key={cmd.idCategory} url={cmd.strCategoryThumb} title={cmd.strCategory} />
