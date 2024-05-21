@@ -1,12 +1,12 @@
 const Home = () => {
   return (
-    <div>
-      <div className='display-3'>
+    <div className='bg-dark container'>
+      <div className='display-3 mb-3'>
         Recetario de comida
       </div>
-      <h5>
+      <div className='display-7 mb-3 pd-6'>
         bienvenido a este recetario, esperamos que encuentre la mejor receta para su alimento preferido
-      </h5>
+      </div>
     </div>
   )
 }
